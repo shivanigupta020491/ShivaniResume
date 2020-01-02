@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFECF7"
+    android:layout_height="match_parent"
+>
+
+    <!--  <androidx.cardview.widget.CardView-->
+    <!--      android:layout_width="match_parent"-->
+    <!--      android:layout_height="wrap_content"-->
+    <!--      android:minHeight="200dp">-->
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/degree_toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?actionBarSize"-->
+    <!--        app:title=" "-->
+    <!--        android:theme="@style/ToolbarTheme"-->
+    <!--        android:background="@color/colorPrimaryDark"-->
+    <!--        />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <!--    <LinearLayout-->
+        <!--      android:layout_width="match_parent"-->
+        <!--      android:layout_height="wrap_content"-->
+        <!--      android:layout_marginTop="20dp"-->
+        <!--    android:orientation="horizontal">-->
+
+
+        <TextView
+            android:id="@+id/professionalSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="ACADEMIC QUALIFICATION"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#000" />
+
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_weight="2"-->
+        <!--      android:orientation="vertical">-->
+
+
+        <!--  <LinearLayout-->
+        <!--      android:layout_width="match_parent"-->
+        <!--      android:layout_height="wrap_content"-->
+        <!--      android:layout_marginTop="20dp"-->
+        <!--      android:orientation="horizontal">-->
+
+        <!--    <TextView-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Professional Summary"-->
+        <!--        android:textSize="24sp"-->
+        <!--        android:layout_marginLeft="5dp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        android:textColor="@color/colorAccent"/>-->
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M.Tech. in Digital Communication,"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Indtrack Technology Pvt Ltd Nagpur (M.H.)"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:textColor="#000"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* From Rajiv Gandhi Prodyugiki Vishwavidyalaya (RGPV), Bhopal in 2015; secured 89.1% ."
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="* Designed KYC app for employees."-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="* Recently i am designing a grocery App."-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            />-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#F0E4DEDE" />
+
+        <TextView
+            android:id="@+id/professional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="B.Tech. in Electronics $ Communication"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Government Polytechnic College Khirsadoh(M.P.)"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:textColor="#000"/>-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="* Taught diploma students of various years"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* From Rajiv Gandhi Prodyugiki Vishwavidyalaya(RGPV), Bhopal in 2012; secured 78.9%."
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="* Designed examination papers, successfully conducted exams and graded them."-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:layout_marginBottom="20dp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            />-->
+
+        <!--    </LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+
+        <!--    </LinearLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#F0E4DEDE" />
+
+        <TextView
+            android:id="@+id/summary1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:text="12th M.P. Board"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* From S.P. Jain Gurukul, Khurai (M.P.) in 2008; secured 70.8% ."
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#F0E4DEDE" />
+
+        <TextView
+            android:id="@+id/summary2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:text="10th M.P. Board"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* From Navdeep Senior Secondary School, Amarwara (M.P.) in 2006; secured 84.8% ."
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/academic_nav_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="0dp"-->
+    <!--        android:layout_marginEnd="0dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        app:labelVisibilityMode="labeled"-->
+    <!--        android:background="?android:attr/windowBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:menu="@menu/bottom_nav_menu" />-->
+
+    <!--  </androidx.cardview.widget.CardView>-->
+
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Government Polytechnic College Khirsadoh(M.P.)"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* Taught diploma students of various years"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* Courses taught: Control Systems, Digital Electronics and Basic Communications."-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* Designed examination papers, successfully conducted exams and graded them."-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Aug ’19- Nov ’19  Android Developer,"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Indtrack Technology Pvt Ltd Nagpur (M.H.)"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* working on Indtrack main app."-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* Designed KYC app for employees."-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="* Recently i am making a grocery App."-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:textColor="#000"/>-->
+
+
+
+
+</RelativeLayout>

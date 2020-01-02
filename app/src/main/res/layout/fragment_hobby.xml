@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFECF7"
+        android:orientation="vertical"
+        tools:context=".AcademicActivity">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/hobby_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    app:title=" "
+                    android:theme="@style/ToolbarTheme"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+           android:layout_below="@+id/hobby_toolbar"
+            android:layout_marginRight="10dp"
+            android:background="@color/cardview_light_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Extra Curricular and Hobbies"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="15dp"
+                android:background="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dancing"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="* Secured first rank in town level open dancing competitions along with many other prizes for dancing"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0E4DEDE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Cultural Program Organized"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="* Successfully conducted cultural functions of college during undergraduation as well as during lectureship"
+                android:textSize="18sp" />
+
+            <!--        <TextView-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="5dp"-->
+            <!--            android:layout_marginLeft="5dp"-->
+            <!--            android:text="* Designed and analysed rectangular patch antenna via hole technique on IE3D software  "-->
+            <!--            android:textSize="18sp" />-->
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0E4DEDE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hobbies"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!--        <TextView-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="5dp"-->
+            <!--            android:layout_marginLeft="5dp"-->
+            <!--            android:layout_marginBottom="20dp"-->
+            <!--            android:text="* Having interest in environment conservation, passed State Level Environment Awareness Examination with Grade A"-->
+            <!--            android:textSize="18sp" />-->
+
+
+            <!--        <View-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="3dp"-->
+            <!--            android:layout_marginTop="15dp"-->
+            <!--            android:background="#F0E4DEDE" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="Enjoy cooking"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:text="Dancing"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:text="Singing"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:text="Guitar"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+        <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+        <!--            android:id="@+id/extra_nav_view"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="0dp"-->
+        <!--            android:layout_marginEnd="0dp"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            app:labelVisibilityMode="labeled"-->
+        <!--            android:background="?android:attr/windowBackground"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:menu="@menu/bottom_nav_menu" />-->
+
+
+    </RelativeLayout>
+</FrameLayout>

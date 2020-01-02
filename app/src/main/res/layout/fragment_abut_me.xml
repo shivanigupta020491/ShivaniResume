@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#EFECF7"
+        android:layout_height="match_parent"
+        tools:context=".PersonalActivity">
+
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:id="@+id/personal_toolbar"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="?actionBarSize"-->
+        <!--            android:theme="@style/ToolbarTheme"-->
+        <!--            android:background="@color/colorPrimaryDark"-->
+        <!--            />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/cardview_light_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ABOUT ME"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:background="#000" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--        <TextView-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_marginTop="7dp"-->
+                    <!--            android:layout_marginLeft="5dp"-->
+                    <!--            android:text="Nationality"-->
+                    <!--            android:textColor="#000"-->
+                    <!--            android:textSize="20sp"-->
+                    <!--            android:textStyle="bold" />-->
+
+                    <!--        <TextView-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_marginTop="3dp"-->
+                    <!--            android:text="Indian"-->
+                    <!--            android:layout_marginLeft="5dp"-->
+                    <!--            android:textSize="18sp" />-->
+
+                    <!--        <View-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="3dp"-->
+                    <!--            android:layout_marginTop="5dp"-->
+                    <!--            android:background="#F0E4DEDE" />-->
+
+                    <!--        <TextView-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_marginTop="3dp"-->
+                    <!--            android:layout_marginLeft="5dp"-->
+                    <!--            android:text="Gender"-->
+                    <!--            android:textColor="#000"-->
+                    <!--            android:textSize="20sp"-->
+                    <!--            android:textStyle="bold" />-->
+
+                    <!--        <TextView-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_marginTop="3dp"-->
+                    <!--            android:layout_marginLeft="5dp"-->
+                    <!--            android:text="Female"-->
+                    <!--            android:textSize="18sp" />-->
+
+
+                    <!--        <View-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="3dp"-->
+                    <!--            android:layout_marginTop="5dp"-->
+                    <!--            android:background="#F0E4DEDE" />-->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Relation Status  "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Married"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Date Of Birth "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="02 April"
+                        android:textSize="18sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Languages Known"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Hindi, English"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Total Experience "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="5 Month"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Operating System "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Windows, Linux, Mac"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="IT Skills "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Android coding(Java, Kotlin), Photoshop"
+                        android:textSize="18sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Published research paper "
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Published research paper on Micro Strip Patch Antenna in IEEE Journal (ICCNT) in 2014"
+                        android:textSize="18sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#F0E4DEDE" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Secured first rank"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Secured first rank in college for 3 years"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECF7"
+    android:orientation="vertical"
+   >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/project_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title=" "
+        android:theme="@style/ToolbarTheme"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/project_toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="PROJECTS"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="1.KYC App"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Designed kyc app for employees, this is useful for update details of gps system."
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#F0E4DEDE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="2.Indtrack Official App"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="In this app, design travel summary, distance summary, new installation page."
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="15dp"
+            android:background="#F0E4DEDE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="3.Grocery App"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="Recently i m working on grocery app"
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp" />
+
+
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:text="1. For New Users "-->
+        <!--            android:textColor="#000"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:text="* In this portion they will fill all details of customer like name, contact no and device just like devise no, sim no. and vehicle-->
+        <!--information like vehicle color, vehicle imei no. and one last is upload image and documentation "-->
+        <!--            android:textSize="18sp" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:text="* There is also one part for customer id proof, address proff etc with image document.-->
+        <!--this is useful for admin side for take all information about new user and vehicle and device information."-->
+        <!--            android:textSize="18sp" />-->
+
+
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="3dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="#F0E4DEDE" />-->
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

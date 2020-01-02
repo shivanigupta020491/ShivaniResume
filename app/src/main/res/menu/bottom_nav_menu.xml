@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="It,s Me" />
+
+    <item
+        android:id="@+id/navigation_professional"
+        android:icon="@drawable/new_company"
+        android:title="Experience" />
+
+    <item
+        android:id="@+id/navigation_project"
+        android:icon="@drawable/projects"
+        android:title="Project" />
+
+    <item
+        android:id="@+id/navigation_hobbies"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Hobbies" />
+
+
+
+    <item
+        android:id="@+id/navigation_extra"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="More" />
+</menu>
